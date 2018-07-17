@@ -1,0 +1,27 @@
+@charset 'utf-8';
+@font-face {
+  font-family: 'MuseoSans-Bold';
+  src: url('fonts/MuseoSansCyrl-900.ttf') format('truetype'); 
+}
+@font-face {
+  font-family: 'MuseoSans-Normal';
+  src: url('fonts/MuseoSansCyrl-500.ttf') format('truetype'); 
+}
+@font-face {
+  font-family: 'MuseoSans-Light';
+  src: url('fonts/MuseoSansCyrl-100.ttf') format('truetype'); 
+}
+/*Variables*/
+
+%wrapper {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+$red: #bf1c22;
+$dgrey: #1a1a1a;
+$lgrey: #bababa;
+$timeLine: #B8B6B8;
+$breakpoint-tablet: 768px;
